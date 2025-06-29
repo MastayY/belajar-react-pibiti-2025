@@ -17,18 +17,15 @@ body {
   width: 100%;
   max-width: 500px;
 }
-
 h1,
 h2 {
   color: #4a4a4a;
   text-align: center;
 }
-
 .todo-form {
   display: flex;
   margin-bottom: 1.5rem;
 }
-
 .todo-input {
   flex-grow: 1;
   padding: 0.8rem;
@@ -36,7 +33,6 @@ h2 {
   border-radius: 4px 0 0 4px;
   font-size: 1rem;
 }
-
 .todo-button {
   padding: 0.8rem 1.2rem;
   border: none;
@@ -47,16 +43,13 @@ h2 {
   font-size: 1rem;
   transition: background-color 0.3s ease;
 }
-
 .todo-button:hover {
   background-color: #4a56a0;
 }
-
 .todo-list {
   list-style: none;
   padding: 0;
 }
-
 .todo-item {
   display: flex;
   justify-content: space-between;
@@ -66,15 +59,12 @@ h2 {
   border-bottom: 1px solid #eee;
   transition: background-color 0.3s ease;
 }
-
 .todo-item:last-child {
   border-bottom: none;
 }
-
 .todo-item:hover {
   background-color: #f0f0f0;
 }
-
 .delete-button {
   background-color: #e74c3c;
   color: white;
@@ -84,7 +74,6 @@ h2 {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
 .delete-button:hover {
   background-color: #c0392b;
 }
